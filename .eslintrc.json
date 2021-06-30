@@ -30,6 +30,20 @@
       "import/prefer-default-export": "off",
       "react/prop-types": "off",
       "prettier/prettier": "error",
+      "@typescript-eslint/ban-types": ["error", {
+        "types": {
+          "String": false,
+          "Boolean": false,
+          "Number": false,
+          "Symbol": false,
+          "{}": false,
+          "Object": false,
+          "object": false,
+          "Function": false
+      },
+      "extendDefaults": true
+      }
+      ],
       "react/jsx-filename-extension": [
         1,
         {
