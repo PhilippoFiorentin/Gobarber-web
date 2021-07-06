@@ -28,6 +28,7 @@
       "react-hooks/exhaustive-deps": "warn",
       "react/jsx-props-no-spreading": "off",
       "import/prefer-default-export": "off",
+      "no-console": "off",
       "react/prop-types": "off",
       "prettier/prettier": "error",
       "@typescript-eslint/ban-types": ["error", {
