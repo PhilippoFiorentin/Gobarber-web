@@ -6,7 +6,7 @@ import { Form } from '@unform/web';
 import getValidationErrors from '../../utils/getValidationErrors';
 import logoImg from '../../assets/logo.svg';
 import { Container, Content, Background } from './styles';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../hooks/AuthContext';
 
 import Button from '../../components/Button';
 import Input from '../../components/Input';
